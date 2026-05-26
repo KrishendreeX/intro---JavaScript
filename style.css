@@ -1,0 +1,61 @@
+body{
+    /* Body styling */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* 100% height */
+    background-color: darkslategrey;
+}
+
+button { 
+    /* Button styling */
+  color: rgb(105, 100, 100);
+  background-color: rgb(226, 223, 231);
+  padding: 20px;
+  border: none;
+  border-radius: 15px;
+font-size: 20px;
+
+}
+
+button:hover {
+    /* Change background color on hover */
+  background-color: rgb(150, 150, 200);
+  /* Changes the cursor to a pointer on hover */
+  cursor: pointer;
+}
+
+h1{
+    /* Heading styling */
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    padding: 15px;
+}
+
+p{
+    /* Paragraph styling */
+    color: rgb(105, 100, 100);
+    font-size: 18px;
+    font-style: italic;
+}    
+
+div{
+    /* Container styling */
+    align-items: center;
+    /* Aligns the contents inside the container */
+    background-color: rgb(255, 255, 255);
+    /* Background color for the container */
+    padding: 30px;
+    /* Padding for the container */
+    border-radius: 20px;
+    /* Rounds the corners of the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Adds a subtle shadow to the container */
+    flex-direction: column;
+    /* Arranges the contents in a column */
+    display: flex;
+    /* Displays the container as a flexbox */
+    /* layout system used to arrange elements in rows or columns */
+}
+
